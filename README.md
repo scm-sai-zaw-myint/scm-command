@@ -2,8 +2,9 @@
 The command line tool that helps you building java project with scm frame. 
 
 ## Version description
-v1.0 (current)
-- support spring mvc project
+- v1.0 (current) support spring mvc project
+- Maven (mvn) 3.9.1 
+- Java jdk 17 or above 
 
 ## Setting up
 Before using, make sure mvn and java are installed in your system. 
