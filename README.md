@@ -38,5 +38,8 @@ Done, you are now able to use the scm command.Open the command prompt and type
 ``
 scmframe -help
 ``
+.
 <br/>
+
+### Thank You
 
