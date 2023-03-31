@@ -50,17 +50,17 @@ Display the current version.
 Display the help message.
 #### -springmvc
 Create new SpringMVC project with scm frame format. This options required two parameters,
-  - [group_id] - the group id of the project (e.g: "com.example")
-  - [artifact_id] - the artifact id of the project(e.g: "test")
+  - [<b>group_id</b>] - the group id of the project (e.g: "com.example")
+  - [<b>artifact_id</b>] - the artifact id of the project(e.g: "test")
 
 e.g: Usage
 ```powershell
 scmframe -springmvc "com.example" "test"
 ```
 After project created, you can import the poject in your IDE and start developing your mvc project.
-```
-NOTE: The compilier version of mvc project is 17. Your IDE must support the java jdk 17 to run the created project.
-```
+
+**_NOTE: The compilier version of mvc project is 17. Your IDE must support the java jdk 17 to run the created mvc project._**
+
 
 ### Thank You
 
