@@ -57,7 +57,10 @@ e.g: Usage
 ```powershell
 scmframe -springmvc "com.example" "test"
 ```
-
+After project created, you can import the poject in your IDE and start developing your mvc project.
+```
+NOTE: The compilier version of mvc project is 17. Your IDE must support the java jdk 17 to run the created project.
+```
 
 ### Thank You
 
