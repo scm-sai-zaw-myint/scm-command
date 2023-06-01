@@ -6,7 +6,7 @@ The command line tool that helps you building java project with mtm frame.
 - Maven (mvn) 3.9.1 
 - Java jdk 17 or above 
 ### Old versions
-- v1.0 (https://github.com/scm-sai-zaw-myint/scm-command)
+- v1.0 ([https://github.com/scm-sai-zaw-myint/scm-command](https://github.com/scm-sai-zaw-myint/scm-command/tree/version1.0))
 
 ## Setting up
 Before using, make sure mvn and java are installed in your system. 
