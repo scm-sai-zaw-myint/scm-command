@@ -283,7 +283,7 @@ if %errorlevel% equ 0 (
       ::layout
       mkdir "%2\src\main\webapp\WEB-INF\layout"
       xcopy /q "%SCM_HOME%\includes\layout" "%2\src\main\webapp\WEB-INF\layout" /S /E /I /Y
-      echo Layout configuration file has been added.
+      echo Layout configuration files have been added.
       echo.
 
       echo Creating Java resources...
@@ -292,38 +292,39 @@ if %errorlevel% equ 0 (
       echo Creating configuration file...
       ::make configuration files
       java -jar %SCM_HOME%\projectmodifier.jar "-build-configurations" "%2\src\main\java" "%1.common.conifg" "%1"
-      echo Configuration Files are created.
+      echo Configuration Files have been created.
       echo.
 
       echo Creating utility files...
       ::make utility files
       java -jar %SCM_HOME%\projectmodifier.jar "-build-utils" "%2\src\main\java" "%1.utils" "%1"
-      echo Utility Files are created.
+      echo Utility Files have been created.
       echo.
 
       echo Creating controllers...
       ::make controller
       java -jar %SCM_HOME%\projectmodifier.jar "-build-controller" "%2\src\main\java" "%1.web.controllers" "%1"
-      echo Controllers are created.
+      echo Controllers have been created.
       echo.
       
       echo Creating forms...
       ::make form
       java -jar %SCM_HOME%\projectmodifier.jar "-build-form" "%2\src\main\java" "%1.web.forms" "%1"
-      echo Forms has been created.
+      echo Forms have been created.
       echo.
 
       echo Createing services...
       ::make service
       java -jar %SCM_HOME%\projectmodifier.jar "-build-service" "%2\src\main\java" "%1.bl.service" "%1"
       java -jar %SCM_HOME%\projectmodifier.jar "-build-service-impl" "%2\src\main\java" "%1.bl.service.impl" "%1"
-      echo Services has been created.
+      echo Services have been created.
+
       echo.
 
       echo Creating DTOs...
       ::make dto
       java -jar %SCM_HOME%\projectmodifier.jar "-build-service-dto" "%2\src\main\java" "%1.bl.dto" "%1"
-      echo DTOs has bee created.
+      echo DTOs have been created.
       echo.
 
       echo Creating Repositories...
