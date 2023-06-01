@@ -35,7 +35,7 @@ Now let's setup to use the command line tool.
 Now we have system environment variable named "MTM_HOME". Let's configure to use it in our command prompt.
 - Under System Variable <b> select Path and click Edit > add new variable Click New and Enter %MTM_HOME% as a value.</b>
 
-Done, you are now able to use the scm command. Open the command prompt and run the command 
+Done, you are now able to use the MTM command. Open the command prompt and run the command 
 ```powershell
 mtm -help
 ```
