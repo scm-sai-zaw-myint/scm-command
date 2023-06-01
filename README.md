@@ -1,5 +1,5 @@
-# MTM Command (project-frame)
-The command line tool that helps you building java project with mtm frame. 
+# MTM CLI (Command-Line Interface)
+The command-line interface that helps you building java project with mtm frame. 
 
 ## Version description
 - v1.1 (current) support spring mvc project
